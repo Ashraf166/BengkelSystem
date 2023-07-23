@@ -1,0 +1,75 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+
+        h1{
+            text-align: center;
+            margin-top: 80px;
+            margin-bottom: 30px;
+        }
+
+        .user-details {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .user-details p {
+            margin: 10px 0;
+        }
+
+        .user-info {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .user-info strong {
+            display: inline-block;
+            width: 100px;
+        }
+
+        .edit-button {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+
+        .edit-button:hover {
+            background-color: #45a049;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .profile-picture {
+            display: block;
+            max-width: 200px;
+            max-height: 200px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .user-details {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
